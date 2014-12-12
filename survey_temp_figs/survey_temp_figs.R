@@ -1,6 +1,8 @@
-# stuff from Ian
+# stuff from Ian Taylor
 
 # data easily accessible at http://oceanadapt.rutgers.edu/
+# bathymetry plots based on 2008/2009 code from Eli Gurarie and Ian Taylor
+# available at http://wiki.cbr.washington.edu/qerm/index.php/Bathymetry_data
 
 # plotting temperature from trawl survey
 if(!exists("surv")){
