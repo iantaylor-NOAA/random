@@ -184,6 +184,7 @@ sub <- surv$Best.Latitude..dd. < max(lat.range) & surv$Best.Latitude..dd. > min(
 fish1 <- fish[fish$Species=="Anoplopoma fimbria",] # Sablefish
 fish1 <- fish[fish$Species=="Sebastolobus alascanus",] # Shortspine Thornyhead
 fish1 <- fish[fish$Species=="Sebastes crameri",] # Darkblotched Rockfish
+fish1 <- fish[fish$Species=="Squalus acanthias",] # Spiny Dogfish
 surv2 <- surv
 surv2$fish1.Haul.Weight..kg. <- 0
 for(irow in 1:nrow(surv2)){
